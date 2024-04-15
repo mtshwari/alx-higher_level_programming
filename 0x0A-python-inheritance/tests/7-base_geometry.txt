@@ -1,0 +1,13 @@
+The ``7-base_geometry`` module
+======================
+
+Using ``BaseGeometry``
+-------------------
+
+Importing the function from the module:
+        >>> BG = __import__("7-base_geometry").BaseGeometry
+
+Checking for module docstring:
+         >>> m = __import__("7-base_geometry").__doc__
+         >>> len(m) > 1
+
